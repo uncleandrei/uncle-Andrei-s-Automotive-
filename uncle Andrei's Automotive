@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncle Andrei's Automotive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            <header>
+        <img src="logo.png" alt="Uncle Andrei's Automotive Logo" style="width: 150px; height: auto; display: block; margin: 0 auto;">
+        <h1>Uncle Andrei's Automotive</h1>
+    <p>Reliable and Affordable Mobile Car Repair Services</p>
+</header>
+background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem;
+        }
+
+        nav a:hover {
+            background-color: #777;
+            border-radius: 5px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background: url('https://via.placeholder.com/1500x500') center/cover no-repeat;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .service {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .contact-form input, .contact-form textarea, .contact-form button {
+            padding: 0.8rem;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Uncle Andrei's Automotive</h1>
+        <p>Reliable and Affordable Mobile Car Repair Services</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>We Come to You!</h1>
+        <p>Get your car fixed anytime, anywhere.</p>
+    </div>
+
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>At Uncle Andrei's Automotive, we specialize in providing top-notch car repair services at your convenience. Our skilled mechanics bring the workshop to your location, saving you time and hassle.</p>
+    </section>
+
+    <section class="section" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Oil Changes</h3>
+                <p>Quick and efficient oil change services to keep your engine running smoothly.</p>
+            </div>
+            <div class="service">
+                <h3>Brake Repair</h3>
+                <p>Ensure your safety with our professional brake inspection and repair services.</p>
+            </div>
+            <div class="service">
+                <h3>Battery Replacement</h3>
+                <p>Get back on the road with our fast battery replacement services.</p>
+            </div>
+            <div class="service">
+                <h3>Emergency Repairs</h3>
+                <p>We offer on-the-spot repairs to get you moving quickly in case of breakdowns.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Uncle Andrei's Automotive. All rights reserved.</p>
+    </footer>
+</body>
+</html>
